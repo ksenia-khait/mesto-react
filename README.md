@@ -5,8 +5,9 @@
 Описание: Сайт выполнен c использованием [Create React App](https://github.com/facebook/create-react-app).
 
 ### Стек Технологий: 
-+ HTML
-+ CSS
++ HTML5
++ CSS3
++ BEM
 + Create React App
 
 ### Установка
