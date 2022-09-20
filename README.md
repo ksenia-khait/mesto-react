@@ -6,7 +6,7 @@
 
 ### Стек Технологий: 
 + HTML
-+ CSS(grid-layout, flex-box) 
++ CSS
 + Create React App
 
 ### Установка
@@ -15,12 +15,12 @@
 
 1. Установить npm зависимости:
 
-##### `npm install`
+##### ` npm install `
 
 2. Запустить в режиме разработки:
 
-##### `npm start`
+##### ` npm start `
 
 Если все прошло успешно, проект будет запущен на
 
-##### `http://localhost:3000`
+##### ` http://localhost:3000 `
