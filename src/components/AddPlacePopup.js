@@ -4,8 +4,8 @@ import PopupWithForm from "./PopupWithForm";
 function AddPlacePopup({isOpen, onClose, onAddPlace}) {
 
     const [values, setValues] = useState({name: '', src: ''})
-    // const [nameError, setNameError] = useState('');
-    // const [urlError, setUrlError] = useState('');
+    const [nameError, setNameError] = useState('');
+    const [urlError, setUrlError] = useState('');
     //
     // const [isValid, setIsValid] = useState({name: true})
 
@@ -16,23 +16,11 @@ function AddPlacePopup({isOpen, onClose, onAddPlace}) {
             [name]: value
         }))
 
-        // if (e.target.values !== '') {
-        //     setNameError('')
-        //     if(e.target.value.length < 2 ) {
-        //         setNameError('Поле должно содержать не менее 2 знаков')
-        //     }
-        // } else {
-        //     setNameError('Поле не может быть пустым')
-        // }
-        // if (e.target.value !== '') {
-        //     setUrlError('')
-        //     if(e.target.value.length < 2 ) {
-        //         setUrlError('Поле должно содержать не менее 2 знаков')
-        //     }
-        // } else {
-        //     setUrlError('Поле не может быть пустым')
-        // }
+
+
     }
+
+
 
     useEffect(() => {
         setValues({name: '', src: ''});
